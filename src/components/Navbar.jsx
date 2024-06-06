@@ -5,35 +5,35 @@ import Logo from "/LogoSB.png";
 
 export default function Navbar() {
   return (
-    <header className="bg-gray-800 bg-opacity-70 backdrop-filter backdrop-blur-lg md:sticky top-0 z-10">
+    <header className="bg-gray-800 bg-opacity-70 backdrop-filter backdrop-blur-lg md:sticky top-0 z-10"data-aos="fade-down">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <div className="flex justify-between w-full md:w-auto mb-4 md:mb-0 items-center">
           <img src={Logo} alt="logo" className="w-10 h-10 ml-1" />
           <a
-            className="title-font font-medium text-white ml-3 text-2xl"
+            className="title-font font-medium text-white ml-3 text-4xl"
             href="#home"
           >
             Stefano Borrelli
           </a>
         </div>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center w-full md:w-auto">
-          <a href="#about" className="mr-5 hover:text-white hidden md:block">
+          <a href="#about" className="mr-5 hover:text-white hidden md:block text-3xl">
             About
           </a>
-          <a href="#projects" className="mr-5 hover:text-white hidden md:block">
+          <a href="#projects" className="mr-5 hover:text-white hidden md:block text-3xl">
             Projects
           </a>
-          <a href="#skills" className="mr-5 hover:text-white hidden md:block">
+          <a href="#skills" className="mr-5 hover:text-white hidden md:block text-3xl">
             Skills
           </a>
         </nav>
-        <div className="flex justify-center w-full md:w-auto space-x-4 drop-shadow-lg shadow-lg">
+        <div className="flex justify-center w-full md:w-auto space-x-4 ">
           <a
             href="#contact"
-            className="inline-flex items-center border-0 py-2 px-4 focus:outline-none hover:bg-white/[0.1] hover:scale-105 rounded text-lg transition-transform duration-300 text-white"
+            className="inline-flex items-center border-0 py-2 px-4 focus:outline-none hover:bg-white/[0.1] hover:scale-105 rounded  transition-transform duration-300 text-white text-3xl"
           >
             Contact Me
-            <FaArrowRight className="w-5 h-5 ml-1" />
+            <FaArrowRight className="w-8 h-8 ml-3 " />
           </a>
           <a
             href="https://github.com/Goleo87"
@@ -41,7 +41,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="inline-flex items-center   border-0 py-2 px-4 focus:outline-none hover:bg-white/[0.1] hover:scale-105 rounded text-lg transition-transform duration-300 text-white"
           >
-            <FaGithub className="w-5 h-5 ml-1" />
+            <FaGithub className="w-8 h-8 " />
           </a>
           <a
             href="https://www.linkedin.com/in/stefanoborrelli"
@@ -49,7 +49,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="inline-flex items-center border-0 py-2 px-4 focus:outline-none hover:bg-white/[0.1] hover:scale-105 rounded text-lg transition-transform duration-300 text-white"
           >
-            <GrLinkedin className="w-5 h-5 ml-1" />
+            <GrLinkedin className="w-8 h-8 " />
           </a>
         </div>
       </div>
