@@ -5,7 +5,10 @@ import Logo from "/LogoSB.png";
 
 export default function Navbar() {
   return (
-    <header className="bg-gray-800 bg-opacity-70 backdrop-filter backdrop-blur-lg md:sticky top-0 z-10"data-aos="fade-down">
+    <header
+      className="bg-gray-800 bg-opacity-70 backdrop-filter backdrop-blur-lg md:sticky top-0 z-10"
+      data-aos="fade-down"
+    >
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <div className="flex justify-between w-full md:w-auto mb-4 md:mb-0 items-center">
           <img src={Logo} alt="logo" className="w-10 h-10 ml-1" />
@@ -17,13 +20,22 @@ export default function Navbar() {
           </a>
         </div>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center w-full md:w-auto">
-          <a href="#about" className="mr-5 hidden md:block text-2xl hover:text-white transition duration-300 ease-in-out">
+          <a
+            href="#about"
+            className="mr-5 hidden md:block text-2xl hover:text-white transition duration-300 ease-in-out"
+          >
             About
           </a>
-          <a href="#projects" className="mr-5 hidden md:block text-2xl hover:text-white transition duration-300 ease-in-out">
+          <a
+            href="#projects"
+            className="mr-5 hidden md:block text-2xl hover:text-white transition duration-300 ease-in-out"
+          >
             Projects
           </a>
-          <a href="#skills" className="mr-5 hidden md:block text-2xl hover:text-white transition duration-300 ease-in-out">
+          <a
+            href="#skills"
+            className="mr-5 hidden md:block text-2xl hover:text-white transition duration-300 ease-in-out"
+          >
             Skills
           </a>
         </nav>

@@ -1,6 +1,4 @@
-
-
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 //function to display the intro screen
 const Intro = ({ onIntroComplete }) => {
@@ -12,8 +10,8 @@ const Intro = ({ onIntroComplete }) => {
   }, [onIntroComplete]);
 
   return (
-    <div className="flex items-center justify-center h-screen  text-white fade-in-out">
-      <div className="bg-opacity-100 backdrop-filter backdrop-blur-sm p-10 rounded-xl text-center">
+    <div className="flex items-center justify-center h-screen text-white fade-in-out">
+      <div className="text-center">
         <h1 className="text-7xl font-serif">Stefano Borrelli</h1>
       </div>
     </div>
@@ -21,7 +19,3 @@ const Intro = ({ onIntroComplete }) => {
 };
 
 export default Intro;
-
-
-
-
