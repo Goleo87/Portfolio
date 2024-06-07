@@ -22,7 +22,7 @@ export default function Projects() {
               <div className="flex relative w-full h-full aspect-w-1 aspect-h-1">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full rounded shadow-lg object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded shadow-lg"
+                  className="absolute inset-0 w-full h-full rounded shadow-lg object-cover object-center transition-transform duration-300 transform hover:scale-105 "
                   src={project.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full  bg-gray-900 bg-opacity-70 backdrop-filter backdrop-blur-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
