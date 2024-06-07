@@ -5,7 +5,7 @@ export default function Contact() {
   const { t } = useTranslation();
 
   return (
-    <section id="contact" className="relative">
+    <section id="contact" className="relative scroll-mt-7">
       <div className="container py-10 mx-auto lg:w-1/2 px-6 mt-4 lg:mt-0 text-center lg:text-center">
         <h1 className="text-3xl font-medium text-white mb-12">{t("contact")}</h1>
         <h2 className="text-lg leading-relaxed mb-2">{t("contactIntro")}</h2>

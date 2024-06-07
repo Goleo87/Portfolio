@@ -42,7 +42,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="text-gray-400 bg-gray-900 bg-opacity-50 backdrop-filter backdrop-blur-sm p-6 mb-4 rounded-lg shadow-lg transition-opacity duration-1000 delay-500 ease-out opacity-100 mx-0 justify-center"
+      className="text-gray-400 bg-gray-900 bg-opacity-50 backdrop-filter backdrop-blur-sm p-6 mb-4 rounded-lg shadow-lg transition-opacity duration-1000 delay-500 ease-out opacity-100 mx-0 justify-center scroll-mt-14"
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
       data-aos-duration="5000"

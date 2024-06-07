@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="text-gray-400 body-font transition-opacity duration-1000 delay-500 easy-out opacity-100"
+      className="text-gray-400 body-font transition-opacity duration-1000 delay-500 easy-out opacity-100 mb-10"
     >
       <div className="overflow-hidden container mx-auto mt-10 flex space-x-6 px-5 py-2 mb-0 md:flex-row flex-col items-center ">
         <div
@@ -25,7 +25,7 @@ export default function Home() {
           <p className="textintro text-lg mb-8 leading-relaxed text-left">
             {t("homeIntro")}
           </p>
-          <div className="flex w-full justify-center gap-5 ">
+          <div className="flex w-full justify-center md:justify-start  gap-5 ">
             <a
               href="#contact"
               className="flex justify-center items-center p-2 drop-shadow-sm shadow-lg text-white bg-rose-700 bg-opacity-70 backdrop-filter backdrop-blur-lg border-spacing-0.5 focus:outline-none hover:bg-rose-600 hover:scale-105 rounded text-1xl transition-transform duration-300 "

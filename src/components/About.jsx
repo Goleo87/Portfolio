@@ -11,9 +11,9 @@ export default function About() {
   return (
     <section
       id="about"
-      className="text-gray-400 body-font mt-10 mb-10 px-4 overflow-x-hidden overflow-y-hidden "
+      className="text-gray-400 body-font mt-30 mb-10 px-4 scroll-my-40 "
     >
-      <div className="container mx-auto flex flex-col md:flex-row items-center space-y-6 md:space-x-6 px-5 py-2 mb-0">
+      <div className="container mx-auto flex flex-col md:flex-row items-center space-y-6 md:space-x-6 px-5 py-2 mb-0 ">
         <div className="w-full md:w-1/2 lg:max-w-lg mt-10 mb-0 md:mt-0 mx-auto">
           <img
             src="/fano3.png"
