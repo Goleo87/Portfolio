@@ -14,22 +14,22 @@ export default function Projects() {
             Projects in Development
           </h1>
         </div>
-        <div className="flex flex-wrap justify-center m-4">
+        <div className="flex flex-wrap justify-center gap-5">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-1/2 lg:w-1/4 p-4"
+              className="w-60 h-60" // Set width and height to make squares
             >
-              <div className="flex relative w-full h-full aspect-w-1 aspect-h-1">
+              <div className="relative w-full h-full">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full rounded shadow-lg object-cover object-center transition-transform duration-300 transform hover:scale-105 "
+                  className="absolute inset-0 w-full h-full rounded shadow-lg object-cover object-center"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full h-full  bg-gray-900 bg-opacity-70 backdrop-filter backdrop-blur-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+                <div className="px-8 py-10 relative z-10 w-full h-full bg-gray-900 bg-opacity-70 backdrop-filter backdrop-blur-lg opacity-0 hover:opacity-100 transition-opacity duration-300 transform ">
                   <h2 className="tracking-widest text-sm title-font font-large text-rose-500 mb-1">
                     {project.subtitle}
                   </h2>
