@@ -13,8 +13,9 @@ import {
   FaLinux,
   FaPhotoVideo,
   FaPalette,
+  FaSass,
 } from "react-icons/fa";
-import { SiAdobecreativecloud } from "react-icons/si";
+import { SiAdobecreativecloud, SiTailwindcss } from "react-icons/si";
 
 const skills = [
   { name: "HTML", icon: FaHtml5, color: "#E34F26" },
@@ -24,11 +25,13 @@ const skills = [
   { name: "Node.js", icon: FaNodeJs, color: "#339933" },
   { name: "MongoDB", icon: FaDatabase, color: "#47A248" },
   { name: "Git", icon: FaGitAlt, color: "#F05032" },
-  { name: "Windows", icon: FaWindows, color: "#0078D6" },
-  { name: "Linux", icon: FaLinux, color: "#FCC624" },
   { name: "Adobe Creative ", icon: SiAdobecreativecloud, color: "#FF0000" },
+  { name: "Tailwind CSS", icon: SiTailwindcss, color: "#00ACC1" },
+  { name: "Sass", icon: FaSass, color: "#CC6699" },
   { name: "Video Editing", icon: FaPhotoVideo, color: "#FF9A00" },
   { name: "Graphic Design", icon: FaPalette, color: "#4CAF50" },
+  { name: "Windows", icon: FaWindows, color: "#0078D6" },
+  { name: "Linux", icon: FaLinux, color: "#FCC624" },
 ];
 
 export default function Skills() {
