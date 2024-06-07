@@ -15,7 +15,7 @@ export default function Home() {
           <h2 className="tittletext text-3xl sm:text-2xl mb-4 font-medium text-rose-500">
             Frontend Web Developer & Audiovisual Creator
           </h2>
-          <p className="textintro text-2xl mb-8 leading-relaxed   text-left ">
+          <p className="textintro text-lg mb-8 leading-relaxed   text-left ">
             I am a creative person with a passion for technology and art. I have
             a background in Audiovisual Production, which has allowed me to work
             on various projects such as short films, music videos, and podcasts.
@@ -26,13 +26,13 @@ export default function Home() {
           <div className="flex space-x-2 justify-center flex-wrap">
             <a
               href="#contact"
-              className="inline-flex text-white bg-rose-700 bg-opacity-70 backdrop-filter backdrop-blur-lg border-spacing-0.5 py-2 px-6 focus:outline-none hover:bg-rose-600 hover:scale-105 rounded text-2xl transition-transform duration-300 mb-4 md:mb-0 md:mr-4 drop-shadow-sm shadow-lg"
+              className="inline-flex text-white bg-rose-700 bg-opacity-70 backdrop-filter backdrop-blur-lg border-spacing-0.5 py-2 px-6 focus:outline-none hover:bg-rose-600 hover:scale-105 rounded text-1xl transition-transform duration-300 mb-4 md:mb-0 md:mr-4 drop-shadow-sm shadow-lg"
             >
               Work With Me
             </a>
             <a
               href="#projects"
-              className="inline-flex drop-shadow-sm shadow-lg text-white bg-rose-700 bg-opacity-70 backdrop-filter backdrop-blur-lg border-spacing-0.5 py-2 px-6 focus:outline-none hover:bg-rose-600 hover:scale-105 rounded text-2xl transition-transform duration-300 mb-4 md:mb-0 md:mr-4"
+              className="inline-flex drop-shadow-sm shadow-lg text-white bg-rose-700 bg-opacity-70 backdrop-filter backdrop-blur-lg border-spacing-0.5 py-2 px-6 focus:outline-none hover:bg-rose-600 hover:scale-105 rounded text-1xl transition-transform duration-300 mb-4 md:mb-0 md:mr-4"
             >
               My Projects
             </a>
