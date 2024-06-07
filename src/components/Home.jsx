@@ -25,16 +25,16 @@ export default function Home() {
           <p className="textintro text-lg mb-8 leading-relaxed text-left">
             {t("homeIntro")}
           </p>
-          <div className="flex w-full justify-left gap-5 ">
+          <div className="flex w-full justify-center gap-5 ">
             <a
               href="#contact"
-              className="inline-flex drop-shadow-sm shadow-lg text-white bg-rose-700 bg-opacity-70 backdrop-filter backdrop-blur-lg border-spacing-0.5 py-2 px-6 focus:outline-none hover:bg-rose-600 hover:scale-105 rounded text-1xl transition-transform duration-300 mb-4 "
+              className="flex justify-center items-center p-2 drop-shadow-sm shadow-lg text-white bg-rose-700 bg-opacity-70 backdrop-filter backdrop-blur-lg border-spacing-0.5 focus:outline-none hover:bg-rose-600 hover:scale-105 rounded text-1xl transition-transform duration-300 "
             >
               {t("workWithMe")}
             </a>
             <a
               href="#projects"
-              className="inline-flex drop-shadow-sm shadow-lg text-white bg-rose-700 bg-opacity-70 backdrop-filter backdrop-blur-lg border-spacing-0.5 py-2 px-6 focus:outline-none hover:bg-rose-600 hover:scale-105 rounded text-1xl transition-transform duration-300 mb-4  "
+              className="flex justify-center items-center p-2 drop-shadow-sm shadow-lg text-white bg-rose-700 bg-opacity-70 backdrop-filter backdrop-blur-lg border-spacing-0.5 focus:outline-none hover:bg-rose-600 hover:scale-105 rounded text-1xl transition-transform duration-300 "
             >
               {t("myProjects")}
             </a>

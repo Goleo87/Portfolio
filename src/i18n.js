@@ -25,7 +25,6 @@ const resources = {
             "projectImgAlt": "Project Image",
             "contact": "Contact",
             "contactIntro": "Get in touch via Email",
-            "contactEmailLabel": "Email",
             "allRightsReserved": "All rights reserved",
             "skillsTitle": "Skills & Technologies"
 
@@ -53,7 +52,6 @@ const resources = {
             "projectImgAlt": "Imagen del Proyecto",
             "contact": "Contacto",
             "contactIntro": "Ponte en contacto a través del correo electrónico",
-            "contactEmailLabel": "Email",
             "allRightsReserved": "Todos los derechos reservados",
             "skillsTitle": "Habilidades y Tecnologías"
         }
@@ -80,7 +78,6 @@ const resources = {
             "projectImgAlt": "Projektbild",
             "contact": "Kontakt",
             "contactIntro": "Kontaktieren Sie uns per E-Mail",
-            "contactEmailLabel": "E-Mail",
             "allRightsReserved": "Alle Rechte vorbehalten",
             "skillsTitle": "Fähigkeiten & Technologien"
         }
