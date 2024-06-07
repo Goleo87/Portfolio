@@ -1,8 +1,38 @@
 import { ChipIcon } from "@heroicons/react/solid";
-import { skills } from "../data";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaNodeJs,
+  FaDatabase,
+  FaGitAlt,
+  FaWindows,
+  FaLinux,
+  FaPhotoVideo,
+  FaPalette,
+} from "react-icons/fa";
+import { SiAdobecreativecloud } from "react-icons/si";
+
+const skills = [
+  { name: "HTML", icon: FaHtml5, color: "#E34F26" },
+  { name: "CSS", icon: FaCss3Alt, color: "#1572B6" },
+  { name: "JavaScript", icon: FaJs, color: "#F7DF1E" },
+  { name: "React", icon: FaReact, color: "#61DAFB" },
+  { name: "Node.js", icon: FaNodeJs, color: "#339933" },
+  { name: "MongoDB", icon: FaDatabase, color: "#47A248" },
+  { name: "Git", icon: FaGitAlt, color: "#F05032" },
+  { name: "Windows", icon: FaWindows, color: "#0078D6" },
+  { name: "Linux", icon: FaLinux, color: "#FCC624" },
+  { name: "Adobe Creative ", icon: SiAdobecreativecloud, color: "#FF0000" },
+  { name: "Video Editing", icon: FaPhotoVideo, color: "#FF9A00" },
+  { name: "Graphic Design", icon: FaPalette, color: "#4CAF50" },
+];
 
 export default function Skills() {
+  const { t } = useTranslation();
   const [showSkills, setShowSkills] = useState(false);
 
   useEffect(() => {
@@ -12,16 +42,16 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="text-gray-400 bg-gray-900 bg-opacity-50 backdrop-filter backdrop-blur-sm p-6 mb-4 rounded-lg shadow-lg transition-opacity duration-1000  delay-500 easy-out opacity-100  mx-0 justify-center"
+      className="text-gray-400 bg-gray-900 bg-opacity-50 backdrop-filter backdrop-blur-sm p-6 mb-4 rounded-lg shadow-lg transition-opacity duration-1000 delay-500 ease-out opacity-100 mx-0 justify-center"
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
       data-aos-duration="5000"
     >
-      <div className="container px-5 py-10 mx-auto ">
+      <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <ChipIcon className="mx-auto inline-block w-20 h-20 mb-5" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Skills & Technologies
+            {t("skillsTitle")}
           </h1>
         </div>
         <div className="flex flex-wrap justify-center -mx-2">
