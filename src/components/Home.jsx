@@ -25,10 +25,10 @@ export default function Home() {
           <p className="textintro text-lg mb-8 leading-relaxed text-left">
             {t("homeIntro")}
           </p>
-          <div className="flex space-x-2 justify-center flex-wrap">
+          <div className="flex  w-full justify-left flex-wrap  gap-3">
             <a
               href="#contact"
-              className="inline-flex text-white bg-rose-700 bg-opacity-70 backdrop-filter backdrop-blur-lg border-spacing-0.5 py-2 px-6 focus:outline-none hover:bg-rose-600 hover:scale-105 rounded text-1xl transition-transform duration-300 mb-4 md:mb-0 md:mr-4 drop-shadow-sm shadow-lg"
+              className="inline-flex text-white bg-rose-700 bg-opacity-70 backdrop-filter backdrop-blur-lg border-spacing-0.5 py-2 px-4 focus:outline-none hover:bg-rose-600 hover:scale-105 rounded text-1xl transition-transform duration-300 mb-4 md:mb-0 md:mr-4 drop-shadow-sm shadow-lg"
             >
               {t("workWithMe")}
             </a>
