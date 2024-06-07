@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="text-gray-400 body-font transition-opacity duration-1000 delay-500 easy-out opacity-100 mb-10"
+      className="text-gray-400 body-font transition-opacity duration-1000 delay-500 easy-out opacity-100 mb-10 overflow-hidden"
     >
       <div className="overflow-hidden container mx-auto mt-10 flex space-x-6 px-5 py-2 mb-0 md:flex-row flex-col items-center ">
         <div
